@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.tony-art.com/sitemap.xml
