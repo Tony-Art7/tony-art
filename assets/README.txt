@@ -1,0 +1,1 @@
+Place favicon.ico (32x32) and headshot.jpg here.
