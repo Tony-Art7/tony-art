@@ -12,6 +12,16 @@
   <link rel="manifest" href="/site.webmanifest" />
   <link rel="canonical" href="https://tony-art.com/resume.html">
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @media print {
+      nav, .download-btn { display: none !important; }
+      header { padding-top: 0 !important; }
+      .print-only { display: inline !important; }
+    }
+    @media screen {
+      .print-only { display: none !important; }
+    }
+  </style>
 </head>
 <body class="bg-slate-50 text-slate-900 antialiased">
   <header class="max-w-4xl mx-auto px-6 py-10">
@@ -32,9 +42,9 @@
     <section class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
       <div>
         <h1 class="text-3xl font-bold">Tony Arteaga</h1>
-        <p class="text-slate-600 mt-1">Orange County, CA · <a href="https://www.linkedin.com/in/tonyart" class="underline">LinkedIn</a></p>
+        <p class="text-slate-600 mt-1">Orange County, CA · <a href="https://www.linkedin.com/in/tonyart" class="underline">LinkedIn</a><span class="print-only"> · <a href="https://tony-art.com" class="underline">tony-art.com</a></span></p>
       </div>
-      <a href="/resume.pdf" class="inline-flex items-center gap-2 rounded px-4 py-2 bg-slate-900 text-white text-sm w-max">
+      <a href="/resume.pdf" class="download-btn inline-flex items-center gap-2 rounded px-4 py-2 bg-slate-900 text-white text-sm w-max">
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
         Download PDF
       </a>
@@ -43,7 +53,7 @@
     <!-- Summary -->
     <section class="mt-8">
       <p class="text-slate-700 leading-relaxed">
-        Cross-functional leader with 20+ years building and scaling Sales, Marketing, Digital, and Product teams. Former CRO who grew revenue to $100M+ ARR. Deep experience across B2C, B2B, and marketplaces—from early-stage to $5B enterprises. Recently completed Stanford AI/ML graduate coursework; hands-on with Python, PyTorch, and GenAI workflows. Open to GTM, Solutions, Transformation, or AI-enabled leadership roles.
+        Technical GTM leader with 20+ years building and scaling pre-sales, solutions, and revenue teams. Former CRO who grew enterprise SaaS to $100M+ ARR through technical discovery, POC execution, and C-level engagement. Deep experience with Fortune 500 accounts across financial services, healthcare, and retail. Stanford AI/ML certified (NLP, ML, Computer Vision); hands-on with Python, PyTorch, LLM architectures, and GenAI deployments. Proven ability to build and scale technical teams from 0→50+ in fast-moving environments.
       </p>
     </section>
 
@@ -74,13 +84,12 @@
         </div>
         <p class="text-slate-600 text-sm">OceanX, LLC · El Segundo, CA</p>
         <ul class="mt-2 text-sm text-slate-700 space-y-1 list-disc list-inside">
-          <li>Built Sales & Marketing from 0→1→N; owned GTM, pricing, operating cadence, board reporting</li>
+          <li>Built and scaled Sales, Pre-Sales, and Marketing teams from 0→1→N (15+ people); owned GTM strategy and execution</li>
+          <li>Led technical discovery and solution scoping for enterprise accounts; negotiated $1M+ C-level contracts</li>
           <li>Delivered 30%+ YoY ARR growth for three consecutive years; scaled to $100M+ ARR</li>
-          <li>Expanded pipeline >25% YoY through data-driven digital marketing and SDRs</li>
-          <li>Led pricing; negotiated $1M+ C-level contracts</li>
-          <li>Drove product/tech roadmap prioritization aligned to revenue goals</li>
-          <li>Orchestrated GTM with Ops, Tech, Customer Success, and Finance</li>
-          <li>Presented to Board and PE investors; represented company at industry events</li>
+          <li>Partnered with Product and Engineering to prioritize roadmap based on customer feedback and use cases</li>
+          <li>Served as executive sponsor for strategic accounts; advised on platform adoption and integration strategies</li>
+          <li>Presented to Board and PE investors; represented company at industry conferences</li>
         </ul>
       </div>
 
@@ -92,10 +101,10 @@
         </div>
         <p class="text-slate-600 text-sm">OceanX, LLC · El Segundo, CA</p>
         <ul class="mt-2 text-sm text-slate-700 space-y-1 list-disc list-inside">
-          <li>Built and led digital/e-commerce team; owned platform, strategy, and delivery</li>
-          <li>Launched cloud-native (AWS) subscription commerce SaaS platform — PCI Level-1 compliant</li>
-          <li>Drove Shopify migration reducing cart abandonment by 25%</li>
-          <li>Improved conversion and retention through data-driven experimentation and UX</li>
+          <li>Built and led technical/e-commerce team; owned platform architecture, strategy, and customer delivery</li>
+          <li>Architected and launched cloud-native (AWS) subscription commerce SaaS platform — PCI Level-1 compliant</li>
+          <li>Led technical integrations and API implementations for enterprise retail clients</li>
+          <li>Drove platform migrations and optimizations reducing cart abandonment by 25%</li>
         </ul>
       </div>
 
@@ -107,10 +116,10 @@
         </div>
         <p class="text-slate-600 text-sm">Guthy|Renker · Los Angeles, CA</p>
         <ul class="mt-2 text-sm text-slate-700 space-y-1 list-disc list-inside">
-          <li>Led sales, mar-tech, and supply-chain platforms; functioned as principal architect</li>
-          <li>Oversaw software development, architecture, and project delivery (50+ FTEs + offshore)</li>
-          <li>Drove AWS cloud migration for marketing, BI, and ERP systems</li>
-          <li>Achieved highest manager score company-wide in employee survey</li>
+          <li>Principal Solutions Architect for $5B enterprise; led sales, mar-tech, and supply-chain platform strategy</li>
+          <li>Built and managed technical teams (50+ FTEs + offshore); delivered enterprise-scale integrations</li>
+          <li>Drove AWS cloud migration for marketing, BI, and ERP systems across the organization</li>
+          <li>Achieved highest manager score company-wide; recognized for technical mentorship and team development</li>
         </ul>
       </div>
 
@@ -122,9 +131,9 @@
         </div>
         <p class="text-slate-600 text-sm">Tribune Media (LA Times, Chicago Tribune, +6 BUs)</p>
         <ul class="mt-2 text-sm text-slate-700 space-y-1 list-disc list-inside">
-          <li>Managed distributed SW Engineering & Architecture teams (LA & Chicago) across 8 business units</li>
-          <li>Directed $20M+ in projects including e-commerce platforms and Salesforce rollout to 600+ sellers</li>
-          <li>Led post-acquisition LA Times integration</li>
+          <li>Led distributed Solutions Architecture and Engineering teams (LA & Chicago) across 8 Fortune 500 business units</li>
+          <li>Directed $20M+ in enterprise projects including e-commerce platforms and Salesforce rollout to 600+ sales team</li>
+          <li>Drove technical enablement and platform adoption across sales organization</li>
         </ul>
       </div>
     </section>
@@ -175,14 +184,14 @@
     <section class="mt-10">
       <h2 class="text-xl font-semibold border-b border-slate-300 pb-2">Skills & Tools</h2>
       <div class="mt-4 flex flex-wrap gap-2 text-sm">
+        <span class="px-3 py-1 bg-slate-100 rounded-full">Solutions Architecture</span>
+        <span class="px-3 py-1 bg-slate-100 rounded-full">Pre-Sales Leadership</span>
+        <span class="px-3 py-1 bg-slate-100 rounded-full">Enterprise AI Adoption</span>
         <span class="px-3 py-1 bg-slate-100 rounded-full">GTM Strategy</span>
-        <span class="px-3 py-1 bg-slate-100 rounded-full">RevOps</span>
-        <span class="px-3 py-1 bg-slate-100 rounded-full">P&L Ownership</span>
-        <span class="px-3 py-1 bg-slate-100 rounded-full">Team Building (0→1→N)</span>
-        <span class="px-3 py-1 bg-slate-100 rounded-full">Enterprise Sales</span>
-        <span class="px-3 py-1 bg-slate-100 rounded-full">Product Strategy</span>
-        <span class="px-3 py-1 bg-slate-100 rounded-full">Digital Transformation</span>
-        <span class="px-3 py-1 bg-slate-100 rounded-full">E-commerce / DTC</span>
+        <span class="px-3 py-1 bg-slate-100 rounded-full">Team Building (0→50+)</span>
+        <span class="px-3 py-1 bg-slate-100 rounded-full">Fortune 500 Accounts</span>
+        <span class="px-3 py-1 bg-slate-100 rounded-full">C-Level Engagement</span>
+        <span class="px-3 py-1 bg-slate-100 rounded-full">Technical Discovery & POCs</span>
         <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-full">Python</span>
         <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-full">PyTorch</span>
         <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-full">Transformers</span>
@@ -192,9 +201,10 @@
         <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-full">RAG / Agents</span>
         <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-full">NLP</span>
         <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-full">Computer Vision</span>
+        <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-full">API Integrations</span>
+        <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-full">LLM Deployments</span>
         <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full">AWS</span>
-        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full">Salesforce</span>
-        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full">Shopify</span>
+        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full">Enterprise SaaS</span>
       </div>
     </section>
 
